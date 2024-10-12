@@ -7,3 +7,5 @@ Instagram:
 YouTube:
 ----
 FooterAdress:
+----
+Author: Stefan Watzinger

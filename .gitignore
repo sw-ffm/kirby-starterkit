@@ -4,8 +4,9 @@
 Icon
 .DS_Store
 
-# Composer
+# Composer and NodeJS
 /vendor
+/node_modules
 
 # Temporary files
 # ---------------

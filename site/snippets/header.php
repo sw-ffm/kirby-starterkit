@@ -15,16 +15,9 @@
 <html lang="en">
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <?php
-  /*
-    In the title tag we show the title of our
-    site and the title of the current page
-  */
-  ?>
-  <title><?= $site->title()->esc() ?> | <?= $page->title()->esc() ?></title>
+<?php snippet('metatags') ?>
+<title><?= $site->title()->esc() ?> | <?= $page->title()->esc() ?></title>
 
   <?php
   /*
