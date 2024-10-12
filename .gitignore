@@ -4,6 +4,9 @@
 Icon
 .DS_Store
 
+# Composer
+/vendor
+
 # Temporary files
 # ---------------
 
