@@ -12,6 +12,12 @@ return [
 
     'env' => 'local',
 
+    'auth' => [
+        'methods' => [
+            'password' => ['2fa' => true]
+        ]
+    ],
+
     // Hilfsfunktion für Vite
     'hooks' => [
         'page.render:before' => function () {
