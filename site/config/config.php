@@ -9,4 +9,22 @@
  */
 return [
     'debug' => true,
+
+    'env' => 'local',
+
+    // Hilfsfunktion für Vite
+    'hooks' => [
+        'page.render:before' => function () {
+            function vite(string $entry) {
+                $devServer = 'http://localhost:3000';
+
+                // Prüfe, ob der Vite Dev Server läuft
+                if (@file_get_contents($devServer . '/index.html')) {
+                    
+                    return js($devServer . '/' . $entry);
+                
+                } // return js($devServer . '/' . $entry);
+            }
+        }
+    ],
 ];

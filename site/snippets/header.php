@@ -41,6 +41,14 @@
   */
   ?>
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
+  <?php
+    // Entwickelt sich die Seite gerade?
+    if (option('env') === 'local') {
+        echo vite('resources/js/app.js'); // Beispiel für dein JS-Entry
+    } else {
+        echo js('assets/js/app.js'); // Produktionsversion
+    }
+  ?>
 </head>
 <body>
 

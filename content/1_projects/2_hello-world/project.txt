@@ -1,13 +1,29 @@
 Title: Hello World
+
 ----
+
 Intro: This was awesome
+
 ----
-Text:
+
+Text: 
+
 ----
+
 Year: 2024
+
 ----
+
 Category: Editorial
+
 ----
-Client:
+
+Client: 
+
 ----
-Credits:
+
+Credits: 
+
+----
+
+Uuid: qJ392hyWwxCWf5wd
